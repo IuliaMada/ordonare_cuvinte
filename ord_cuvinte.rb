@@ -9,7 +9,7 @@ words_hash = words_arr.group_by {|word| word.length}
 
 # does the same thing 
 # words_arr.each do |value|
-# 	words_hash[value.length] << value
+# 	words_hash[value.length] += value
 # end
 
 #sort values
